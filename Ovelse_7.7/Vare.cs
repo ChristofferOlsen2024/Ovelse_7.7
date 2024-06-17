@@ -10,5 +10,10 @@ namespace Ovelse_7._7
     {
         public required string VaresNavn {  get; set; }
         public double VaresPris { get; set; }
+
+        public void Udskriv()
+        {
+            Console.WriteLine($"{VaresNavn}: {VaresPris:C2}");
+        }
     }
 }
