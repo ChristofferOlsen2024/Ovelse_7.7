@@ -17,3 +17,6 @@ Vand.VaresNavn = "Vand";
 Vand.VaresPris = 25.95;
 
 Vare[] indkob = { Ost, Pølse, Pizza, Vand };
+
+Kasseapparat apparat = new();
+apparat.UdskrivBon(indkob);

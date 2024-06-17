@@ -8,7 +8,7 @@ namespace Ovelse_7._7
 {
     internal class Vare
     {
-        public required string VaresNavn {  get; set; }
+        public string? VaresNavn {  get; set; }
         public double VaresPris { get; set; }
 
         public void Udskriv()
